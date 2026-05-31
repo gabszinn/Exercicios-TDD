@@ -20,7 +20,7 @@
     </properties>
 
     <dependencies>
-        <!-- JUnit 5 para os testes de TDD -->
+             
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
@@ -28,7 +28,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Cucumber para BDD com Gherkin -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
@@ -43,7 +42,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Runner do Cucumber usando JUnit Platform -->
         <dependency>
             <groupId>org.junit.platform</groupId>
             <artifactId>junit-platform-suite</artifactId>
